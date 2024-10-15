@@ -1,4 +1,6 @@
-public class Main {
+package academy.devdojo.maratonajava.introducao;
+
+public class tiposPrimitivos {
     // psvm
     public static void main(String[] args){
         String nome = "Kaique";
