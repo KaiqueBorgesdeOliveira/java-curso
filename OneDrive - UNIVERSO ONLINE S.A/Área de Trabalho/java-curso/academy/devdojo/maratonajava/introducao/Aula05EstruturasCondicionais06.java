@@ -3,9 +3,9 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05EstruturasCondicionais06 {
     public static void main(String[] args) {
         //Dado os valores de 1 a 7 imprima se é dia útil ou final de semana, considerando 1 como domingo
-        int diaSemana = 5;
+        int diaSemana = 7;
 
-        System.out.println("Dia da semana de 1 a 7: " + diaSemana);
+       /* System.out.println("Dia da semana de 1 a 7: " + diaSemana);
 
         switch (diaSemana){
             case 1:
@@ -37,5 +37,24 @@ public class Aula05EstruturasCondicionais06 {
         } else{
             System.out.println("Opção Inválida");
         }
+        */
+
+        switch (diaSemana){
+            case 1:
+            case 7:
+                System.out.println("FDS");
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Dia útil");
+                break;
+            default:
+                System.out.println("Opção Inválida");
+                break;
+        }
+
     }
 }
